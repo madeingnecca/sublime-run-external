@@ -4,6 +4,8 @@ RunExternal executes the current selection as a shell command and replaces the s
 
 It supports multiple selections, so each selected region will be replaced with the output of the respective command.
 
+<img style="display:block;margin:0 auto;" src="http://i.imgur.com/2dYAo.gif">
+
 Developers can change a "command wrapper", a custom string used to construct the final command. For example cygwin users can use this as a command wrapper:
 
 <pre>
